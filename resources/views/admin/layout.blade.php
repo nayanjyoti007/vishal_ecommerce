@@ -120,10 +120,19 @@
 
                             <li>
                                 <a href="{{route('admin.color.list')}}" class=" waves-effect @yield('color_active')">
-                                    <i class="ri-layout-right-2-line"></i>
+                                    <i class="ri-paint-brush-line"></i>
                                     <span>Color</span>
                                 </a>
                             </li>
+
+
+                            <li>
+                                <a href="{{route('admin.product.list')}}" class=" waves-effect @yield('product_active')">
+                                    <i class="ri-product-hunt-line"></i>
+                                    <span>Product</span>
+                                </a>
+                            </li>
+
                 
                             <li>
                                 <a href="javascript: void(0)" class="has-arrow waves-effect">

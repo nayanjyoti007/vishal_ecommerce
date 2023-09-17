@@ -31,7 +31,8 @@ class CouponController extends Controller
             'id' => 'nullable|numeric|exists:coupons,id',
             'coupons_name' => 'required|string|max:100',
             'coupons_code' => 'required|unique:coupons,coupons_code',
-            'coupons_value' => 'required'
+            'coupons_value' => 'required|numeric',
+            'type' => 'required'
 
         ]);
         $id = $request->input('id');
@@ -50,6 +51,9 @@ class CouponController extends Controller
         $coupon->coupons_name = $request->input('coupons_name');
         $coupon->coupons_code = $request->input('coupons_code');
         $coupon->coupons_value = $request->input('coupons_value');
+        $coupon->type = $request->input('type');
+        $coupon->min_order_amt = $request->input('min_order_amt');
+        $coupon->is_one_time = $request->input('is_one_time');
         $coupon->save();
         return true;
     }

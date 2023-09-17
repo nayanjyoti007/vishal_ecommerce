@@ -16,12 +16,14 @@ class CatrgoryController extends Controller
     }
     public function form($id = null)
     {
+       
         if (!empty($id)) {
             $category = Category::findOrFail($id);
-
-            return view('admin.category.form', compact('category'));
+            $allCateegory = Category::latest()->where('id', '!=', $id)->where('status',1)->get();
+            return view('admin.category.form', compact('category', 'allCateegory'));
         } else {
-            return view('admin.category.form');
+            $allCateegory = Category::latest()->where('status',1)->get();
+            return view('admin.category.form', compact('allCateegory'));
         }
     }
 
@@ -31,7 +33,8 @@ class CatrgoryController extends Controller
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:categories,id',
             'name' => 'required|string|max:100',
-            'slug' => 'required|unique:categories,slug_name',
+            'slug' => 'required|unique:categories,slug_name,'.$request->post('id'),
+            'parent_cat_id' => 'nullable|numeric|exists:categories,id',
             'image' => 'nullable|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
         ]);
         $id = $request->input('id');
@@ -53,6 +56,7 @@ class CatrgoryController extends Controller
         }
         $category->name = $request->input('name');
         $category->slug_name = $request->input('slug');
+        $category->parent_cat_id = $request->input('parent_cat_id');
         $category->save();
         return true;
     }

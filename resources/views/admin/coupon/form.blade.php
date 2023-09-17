@@ -47,6 +47,7 @@
 
                                 <input type="hidden" value="{{isset($coupon) ? $coupon->id : ''}}" name="id">
                                 <div class="mb-4">
+                                    <label>Coupon Name</label>
                                     <input class="form-control" type="text" name="coupons_name" value="{{isset($coupon) ? $coupon->coupons_name : old('coupons_name')}}" placeholder="Coupon Name">
                                     @if ($errors->has('coupons_name'))
                                         <span class="text-danger">
@@ -55,7 +56,9 @@
                                     @enderror
                             </div>
 
-                            <div class="mb-4">
+                           <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label>Coupons Code</label>
                                 <input class="form-control" type="text" name="coupons_code" value="{{isset($coupon) ? $coupon->coupons_code : old('coupons_code')}}" placeholder="Coupon Code">
                                 @if ($errors->has('coupons_code'))
                                     <span class="text-danger">
@@ -65,7 +68,8 @@
                         </div>
 
 
-                        <div class="mb-4">
+                        <div class="col-md-6 mb-4">
+                            <label>Coupons Value</label>
                             <input class="form-control" type="text" name="coupons_value" value="{{isset($coupon) ? $coupon->coupons_value : old('coupons_value')}}" placeholder="Coupon Value">
                             @if ($errors->has('coupons_value'))
                                 <span class="text-danger">
@@ -73,6 +77,61 @@
                                 </span>
                             @enderror
                     </div>
+                           </div>
+
+
+                           <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <label>Coupon Type</label>
+                                <select class="form-select" aria-label="Default select example" id="type"
+                                   name="type">
+                                   <option disabled selected>Select Coupon Type</option>
+                                <option value="2"
+                                {{ isset($coupon->type) && $coupon->type == 2 ? 'selected' : (old('type') == 2 ? 'selected' : null) }}
+                                > Percentage</option>
+                                <option value="1"
+                                {{ isset($coupon->type) && $coupon->type == 1 ? 'selected' : (old('type') == 1 ? 'selected' : null) }}>
+                                Value</option>
+                                </select>
+                                @if ($errors->has('type'))
+                                <span class="text-danger">
+                                <strong>{{ $errors->first('type') }}</strong>
+                                </span>
+                                @enderror
+                             </div>
+
+
+                             <div class="col-md-4 mb-4">
+                                <label>Min. Order Amount</label>
+                                <input class="form-control" type="text" name="min_order_amt" value="{{isset($coupon) ? $coupon->min_order_amt : old('min_order_amt')}}" placeholder="Coupon Value">
+                                @if ($errors->has('min_order_amt'))
+                                    <span class="text-danger">
+                                        <strong>{{ $errors->first('min_order_amt') }}</strong>
+                                    </span>
+                                @enderror
+                        </div>
+
+
+                             <div class="col-md-4 mb-4">
+                                <label>Is One Time</label>
+                                <select class="form-select" aria-label="Default select example" id="is_one_time"
+                                   name="is_one_time">
+                                <option value="2"
+                                {{ isset($coupon->is_one_time) && $coupon->is_one_time == 2 ? 'selected' : (old('is_one_time') == 2 ? 'selected' : null) }}
+                                selected>No</option>
+                                <option value="1"
+                                {{ isset($coupon->is_one_time) && $coupon->is_one_time == 1 ? 'selected' : (old('is_one_time') == 1 ? 'selected' : null) }}>
+                                Yes</option>
+                                </select>
+                                @if ($errors->has('is_one_time'))
+                                <span class="text-danger">
+                                <strong>{{ $errors->first('is_one_time') }}</strong>
+                                </span>
+                                @enderror
+                             </div>
+
+                           </div>
+
 
      
 
