@@ -35,7 +35,7 @@ class ProductController extends Controller
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:products,id',
             'name' => 'required|string|max:100',
-            'slug' => 'required|unique:products,slug',
+            'slug' => 'required|unique:products,slug,'.$request->post('id'),
             'category_id' => 'required|numeric|exists:categories,id',
             'brand' => 'required',
             'image' => 'required|image|mimes:jpg,png,jpeg|max:2048',

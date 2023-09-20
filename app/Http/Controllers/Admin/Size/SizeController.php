@@ -29,7 +29,7 @@ class SizeController extends Controller
         // dd($request->all());
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:sizes,id',
-            'name' => 'required|unique:sizes,size',
+            'name' => 'required|unique:sizes,size,'.$request->post('id'),
 
         ]);
         $id = $request->input('id');

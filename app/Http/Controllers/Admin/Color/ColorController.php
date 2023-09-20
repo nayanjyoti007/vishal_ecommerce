@@ -29,7 +29,7 @@ class ColorController extends Controller
         // dd($request->all());
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:colors,id',
-            'name' => 'required|unique:colors,color',
+            'name' => 'required|unique:colors,color,'.$request->post('id'),
 
         ]);
         $id = $request->input('id');

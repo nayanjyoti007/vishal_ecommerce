@@ -40,7 +40,7 @@ class ProductAttributeController extends Controller
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:product_attributes,id',
             'product_id' => 'required|numeric|exists:products,id',
-            'sku' => 'required|unique:product_attributes,sku',
+            'sku' => 'required|unique:product_attributes,sku,'.$request->post('id'),
             'mrp' => 'required',
             'price' => 'required',
             'qty' => 'required',

@@ -30,7 +30,7 @@ class CouponController extends Controller
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:coupons,id',
             'coupons_name' => 'required|string|max:100',
-            'coupons_code' => 'required|unique:coupons,coupons_code',
+            'coupons_code' => 'required|unique:coupons,coupons_code,'.$request->post('id'),
             'coupons_value' => 'required|numeric',
             'type' => 'required'
 
