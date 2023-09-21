@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AdminLoginController;
+use App\Http\Controllers\Admin\Brand\BrandController;
 use App\Http\Controllers\Admin\Category\CatrgoryController;
 use App\Http\Controllers\Admin\Color\ColorController;
 use App\Http\Controllers\Admin\Coupon\CouponController;
@@ -30,6 +31,7 @@ Route::group(['middleware' => 'admin'], function () {
             Route::get('form/{id?}', [CatrgoryController::class, 'form'])->name('form');
             Route::post('submit', [CatrgoryController::class, 'submit'])->name('submit');
             Route::get('status/{id}', [CatrgoryController::class, 'status'])->name('status');
+            Route::get('show_home/{id}', [CatrgoryController::class, 'showHome'])->name('showHome');
             Route::get('delete', [CatrgoryController::class, 'delete'])->name('delete');
         });
 
@@ -50,6 +52,16 @@ Route::group(['middleware' => 'admin'], function () {
             Route::post('submit', [SizeController::class, 'submit'])->name('submit');
             Route::get('status/{id}', [SizeController::class, 'status'])->name('status');
             Route::get('delete', [SizeController::class, 'delete'])->name('delete');
+        });
+
+
+        Route::group(['prefix' => 'brand', 'as' => 'brand.'], function () {
+            Route::get('list', [BrandController::class, 'list'])->name('list');
+            Route::get('form/{id?}', [BrandController::class, 'form'])->name('form');
+            Route::post('submit', [BrandController::class, 'submit'])->name('submit');
+            Route::get('status/{id}', [BrandController::class, 'status'])->name('status');
+            Route::get('show_home/{id}', [BrandController::class, 'showHome'])->name('showHome');
+            Route::get('delete', [BrandController::class, 'delete'])->name('delete');
         });
 
 

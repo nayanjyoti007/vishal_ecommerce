@@ -1,6 +1,6 @@
 @extends('admin.layout')
-@section('page_title','Category')
-@section('category_active','active')
+@section('page_title','Brand')
+@section('brand_active','active')
 @section('content')
     <div class="container-fluid">
 
@@ -8,12 +8,12 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                    <h4 class="mb-sm-0">Add Category</h4>
+                    <h4 class="mb-sm-0">Add Brand</h4>
 
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0)">Admin</a></li>
-                            <li class="breadcrumb-item">Add Category</li>
+                            <li class="breadcrumb-item">Add Brand</li>
                         </ol>
                     </div>
 
@@ -42,15 +42,15 @@
                             </div>
                         @endif
                         <div>
-                            <form action="{{ route('admin.category.submit') }}" method="post" enctype="multipart/form-data">
+                            <form action="{{ route('admin.brand.submit') }}" method="post" enctype="multipart/form-data">
                                 @csrf
 
-                                <input type="hidden" value="{{isset($category) ? $category->id : ''}}" name="id">
+                                <input type="hidden" value="{{isset($brand) ? $brand->id : ''}}" name="id">
                                 
                                <div class="row">
-                                <div class="col-md-4 mb-4">
-                                    <label>Category Name</label>
-                                    <input class="form-control" type="text" name="name" value="{{isset($category) ? $category->name : old('name')}}" placeholder="Category Name">
+                                <div class="col-md-6 mb-4">
+                                    <label>Brand Name</label>
+                                    <input class="form-control" type="text" name="name" value="{{isset($brand) ? $brand->name : old('name')}}" placeholder="Brand Name">
                                     @if ($errors->has('name'))
                                         <span class="text-danger">
                                             <strong>{{ $errors->first('name') }}</strong>
@@ -58,9 +58,9 @@
                                     @enderror
                             </div>
 
-                            <div class="col-md-4 mb-4">
-                                <label>Category Slug</label>
-                                <input class="form-control" type="text" name="slug" value="{{isset($category) ? $category->slug_name : old('slug')}}" placeholder="Category Slug">
+                            <div class="col-md-6 mb-4">
+                                <label>Brand Slug</label>
+                                <input class="form-control" type="text" name="slug" value="{{isset($brand) ? $brand->slug : old('slug')}}" placeholder="Brand Slug">
                                 @if ($errors->has('slug'))
                                     <span class="text-danger">
                                         <strong>{{ $errors->first('slug') }}</strong>
@@ -69,29 +69,12 @@
                         </div>
 
                         
-                        <div class="col-md-4 mb-4">
-                            <label>Parent Category</label>
-                            <select class="form-select" aria-label="Default select example" id="parent_cat_id"
-                            name="parent_cat_id">
-                            <option disabled selected>Select Parent</option>
-                            @foreach ($allCateegory as $item)
-                            <option value="{{ $item->id }}"
-                            {{ isset($category) ? ($category->parent_cat_id == $item->id ? 'selected' : '') : '' }}>
-                            {{ $item->name }}</option>
-                            @endforeach
-                         </select>
-                         @if ($errors->has('parent_cat_id'))
-                         <span class="text-danger">
-                         <strong>{{ $errors->first('parent_cat_id') }}</strong>
-                         </span>
-                         @enderror
-                    </div>
                                </div>
 
-                       <div class="row">
+                      <div class="row">
                         <div class="col-md-6 mb-4">
-                            <label>Category Image</label>
-                            <input class="form-control" type="file" name="image" id="image" placeholder="Category Image">
+                            <label>Brand Image</label>
+                            <input class="form-control" type="file" name="image" id="image" placeholder="Brand Image">
                             @if ($errors->has('image'))
                                 <span class="text-danger">
                                     <strong>{{ $errors->first('image') }}</strong>
@@ -99,17 +82,16 @@
                             @enderror
                     </div>
 
-
-                <div class="col-md-6 mb-4">
-                    <img src="{{ isset($product) ? asset('backend_images/' . $product->image) : '' }}"
-                       alt="" srcset="" id="showImage" style="width: 30%;">
-                 </div>
-                       </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="{{ isset($brand) ? asset('backend_images/' . $brand->image) : '' }}"
+                           alt="" srcset="" id="showImage" style="width: 20%;">
+                     </div>
+                      </div>
 
 
                     <div>
                         <button class="btn btn-primary btn-sm" type="submit">Submit</button>
-                        <a href="{{route('admin.category.list')}}" class="btn btn-success btn-sm">Back</a>
+                        <a href="{{route('admin.brand.list')}}" class="btn btn-success btn-sm">Back</a>
                     </div>
                 </form>
             </div>

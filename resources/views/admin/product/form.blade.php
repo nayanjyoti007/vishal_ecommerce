@@ -69,9 +69,15 @@
                      <div class="row">
                         <div class="col-md-6 mb-4">
                            <label>Brand Name</label>
-                           <input class="form-control" type="text" name="brand"
-                              value="{{ isset($product) ? $product->brand : old('brand') }}"
-                              placeholder="Product Brand">
+                           <select class="form-select" aria-label="Default select example" id="brand"
+                           name="brand">
+                           <option disabled selected>Select Brand</option>
+                           @foreach ($brand as $item)
+                           <option value="{{ $item->id }}"
+                           {{ isset($product) ? ($product->brand == $item->id ? 'selected' : '') : '' }}>
+                           {{ $item->name }}</option>
+                           @endforeach
+                        </select>
                            @if ($errors->has('brand'))
                            <span class="text-danger">
                            <strong>{{ $errors->first('brand') }}</strong>

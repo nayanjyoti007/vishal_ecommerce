@@ -56,7 +56,6 @@ class ProductAttributeController extends Controller
         ->where('color_id', $request->input('color_id'))
         ->where('size_id', $request->input('size_id'))
         ->exists()) {
-        // Create the product if it doesn't already exist
         return back()->with('error', 'Product with the same name and size already exists');
     } 
 

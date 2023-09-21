@@ -68,6 +68,14 @@ class CatrgoryController extends Controller
         return back()->with('success', 'Status Updated Successfully');
     }
 
+    public function showHome($id)
+    {
+        $category = Category::findOrFail($id);
+        $category->show_in_home = $category->show_in_home == 1 ? 2 : 1;
+        $category->save();
+        return back()->with('success', 'Show in Home Updated Successfully');
+    }
+
     public function delete(Request $request)
     {
         try {

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin\Product;
 
 use App\Http\Controllers\Controller;
+use App\Models\Brand;
 use App\Models\Category;
 use App\Models\Product;
 use App\Services\ImageService;
@@ -18,13 +19,14 @@ class ProductController extends Controller
     public function form($id = null)
     {
         $category = Category::latest()->where('status',1)->get();
+        $brand = Brand::latest()->where('status',1)->get();
         
         if (!empty($id)) {
             $product = Product::findOrFail($id);
 
-            return view('admin.product.form', compact('product', 'category'));
+            return view('admin.product.form', compact('product', 'category', 'brand'));
         } else {
-            return view('admin.product.form', compact('category'));
+            return view('admin.product.form', compact('category', 'brand'));
         }
     }
 

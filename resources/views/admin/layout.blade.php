@@ -117,6 +117,13 @@
                                 </a>
                             </li>
 
+                            <li>
+                                <a href="{{route('admin.brand.list')}}" class=" waves-effect @yield('brand_active')">
+                                    <i class="ri-paint-brush-line"></i>
+                                    <span>Brand</span>
+                                </a>
+                            </li>
+
 
                             <li>
                                 <a href="{{route('admin.color.list')}}" class=" waves-effect @yield('color_active')">

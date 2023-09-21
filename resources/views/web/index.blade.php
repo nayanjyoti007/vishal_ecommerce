@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zxx">
 	
-<!-- Mirrored from www.themezhub.net/kumo-demo-2/kumo/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 08:35:08 GMT -->
+<!-- Mirrored from www.themezhub.net/kumo-demo-2/kumo/home-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 08:35:58 GMT -->
 <head>
 		<meta charset="utf-8" />
 		<meta name="author" content="Themezhub" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-        <title>Kumo- Fashion eCommerce HTML Template</title>
+        <title>Fashion eCommerce</title>
 		 
         <!-- Custom CSS -->
         <link href="{{asset('frontend/assets/css/styles.css')}}" rel="stylesheet">
@@ -29,17 +29,18 @@
             <!-- ============================================================== -->
             <!-- Top header  -->
             <!-- ============================================================== -->
+            <!-- Start Navigation -->
 			<!-- Top Header -->
-			<div class="py-2 bg-dark">
+			<div class="py-2 gray">
 				<div class="container">
 					<div class="row">
 						
 						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 hide-ipad">
-							<div class="top_first"><a href="callto:(+84)0123456789" class="medium text-light">(+84) 0123 456 789</a></div>
+							<div class="top_first"><a href="callto:(+84)0123456789" class="medium text-muted">(+84) 0123 456 789</a></div>
 						</div>
 						
 						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 hide-ipad">
-							<div class="top_second text-center"><p class="medium text-light m-0 p-0">Get Free delivery from $2000 <a href="#" class="medium text-dark text-underline">Shop Now</a></p></div>
+							<div class="top_second text-center"><p class="medium text-muted m-0 p-0">Get Free delivery from ₹2000 <a href="javascript:void(0)" class="medium text-dark text-underline">Shop Now</a></p></div>
 						</div>
 						
 						<!-- Right Menu -->
@@ -47,13 +48,13 @@
 
 							<div class="currency-selector dropdown js-dropdown float-right">
 								<a href="javascript:void(0);" data-toggle="dropdown" class="popup-title"  title="Currency" aria-label="Currency dropdown">
-									<span class="hidden-xl-down medium text-light">Currency:</span>
-									<span class="iso_code medium text-light">$USD</span>
-									<i class="fa fa-angle-down medium text-light"></i>
+									<span class="hidden-xl-down medium text-muted">Currency:</span>
+									<span class="iso_code medium text-muted">₹USD</span>
+									<i class="fa fa-angle-down medium text-muted"></i>
 								</a>
 								<ul class="popup-content dropdown-menu">  
-									<li><a title="Euro" href="#" class="dropdown-item medium text-muted">EUR €</a></li>
-									<li class="current"><a title="US Dollar" href="#" class="dropdown-item medium text-muted">USD $</a></li>
+									<li><a title="Euro" href="javascript:void(0)" class="dropdown-item medium text-muted">EUR €</a></li>
+									<li class="current"><a title="US Dollar" href="javascript:void(0)" class="dropdown-item medium text-muted">USD ₹</a></li>
 								</ul>
 							</div>
 							
@@ -61,9 +62,9 @@
 						
 							<div class="language-selector-wrapper dropdown js-dropdown float-right mr-3">
 								<a class="popup-title" href="javascript:void(0)" data-toggle="dropdown" title="Language" aria-label="Language dropdown">
-									<span class="hidden-xl-down medium text-light">Language:</span>
-									<span class="iso_code medium text-light">English</span>
-									<i class="fa fa-angle-down medium text-light"></i>
+									<span class="hidden-xl-down medium text-muted">Language:</span>
+									<span class="iso_code medium text-muted">English</span>
+									<i class="fa fa-angle-down medium text-muted"></i>
 								</a>
 								<ul class="dropdown-menu popup-content link">
 									<li class="current"><a href="javascript:void(0);" class="dropdown-item medium text-muted"><img src="{{asset('frontend/assets/img/1.jpg')}}" alt="en" width="16" height="11" /><span>English</span></a></li>
@@ -76,11 +77,11 @@
 							</div>
 							
 							<div class="currency-selector dropdown js-dropdown float-right mr-3">
-								<a href="javascript:void(0);" class="text-light medium">Wishlist</a>
+								<a href="javascript:void(0);" class="text-muted medium">Wishlist</a>
 							</div>
 							
 							<div class="currency-selector dropdown js-dropdown float-right mr-3">
-								<a href="javascript:void(0);" class="text-light medium">My Account</a>
+								<a href="javascript:void(0);" class="text-muted medium">My Account</a>
 							</div>
 							
 						</div>
@@ -89,34 +90,34 @@
 				</div>
 			</div>
 			
-            <!-- Start Navigation -->
 			<div class="header header-light dark-text">
 				<div class="container">
 					<nav id="navigation" class="navigation navigation-landscape">
 						<div class="nav-header">
-							<a class="nav-brand" href="#">
-								<img src="{{asset('frontend/assets/img/logo.png')}}" class="logo" alt="" />
+							<a class="nav-brand" href="javascript:void(0)">
+								<!-- <img src="{{asset('frontend/assets/img/logo.png')}}" class="logo" alt="" /> -->
+								PakhiinfoTech
 							</a>
 							<div class="nav-toggle"></div>
 							<div class="mobile_nav">
 								<ul>
 									<li>
-									<a href="#" onclick="openSearch()">
+									<a href="javascript:void(0)" onclick="openSearch()">
 										<i class="lni lni-search-alt"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" data-toggle="modal" data-target="#login">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#login">
 										<i class="lni lni-user"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" onclick="openWishlist()">
+									<a href="javascript:void(0)" onclick="openWishlist()">
 										<i class="lni lni-heart"></i><span class="dn-counter">2</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" onclick="openCart()">
+									<a href="javascript:void(0)" onclick="openCart()">
 										<i class="lni lni-shopping-basket"></i><span class="dn-counter">0</span>
 									</a>
 								</li>
@@ -126,7 +127,7 @@
 						<div class="nav-menus-wrapper" style="transition-property: none;">
 							<ul class="nav-menu">
 							
-								<li><a href="#">Home</a>
+							<!-- 	<li><a href="javascript:void(0)">Home</a>
 									<ul class="nav-dropdown nav-submenu">
 										<li><a href="index.html">Home 1</a></li>
 										<li><a href="home-2.html">Home 2</a></li>
@@ -159,7 +160,7 @@
 												<li><a href="complete-order.html">Order Complete</a></li>
 											</ul>
 										</li>
-										<li><a href="shop-style-1.html">Shop Style 01</a></li>
+										<li><a href="javascript:void(0)">Shop Style 01</a></li>
 										<li><a href="shop-style-2.html">Shop Style 02</a></li>
 										<li><a href="shop-style-3.html">Shop Style 03</a></li>
 										<li><a href="shop-style-4.html">Shop Style 04</a></li>
@@ -170,7 +171,7 @@
 								
 								<li><a href="javascript:void(0);">Product</a>
 									<ul class="nav-dropdown nav-submenu">
-										<li><a href="shop-single-v1.html">Product Detail v01</a></li>
+										<li><a href="javascript:void(0)">Product Detail v01</a></li>
 										<li><a href="shop-single-v2.html">Product Detail v02</a></li>
 										<li><a href="shop-single-v3.html">Product Detail v03</a></li>
 										<li><a href="shop-single-v4.html">Product Detail v04</a></li>
@@ -186,31 +187,35 @@
 										<li><a href="privacy.html">Privacy Policy</a></li>
 										<li><a href="faq.html">FAQs</a></li>
 									</ul>
-								</li>
+								</li> -->
 								
-								<li><a href="docs.html">Docs</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="javascript:void(0)">Shop</a></li>
+								<li><a href="javascript:void(0)">Category</a></li>
+								<li><a href="javascript:void(0)">Top Selling</a></li>
+								<li><a href="javascript:void(0)">Contact Us</a></li>
 								
 							</ul>
 							
 							<ul class="nav-menu nav-menu-social align-to-right">
 								<li>
-									<a href="#" onclick="openSearch()">
+									<a href="javascript:void(0)" onclick="openSearch()">
 										<i class="lni lni-search-alt"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" data-toggle="modal" data-target="#login">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#login">
 										<i class="lni lni-user"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" onclick="openWishlist()">
-										<i class="lni lni-heart"></i><span class="dn-counter">2</span>
+									<a href="javascript:void(0)" onclick="openWishlist()">
+										<i class="lni lni-heart"></i><span class="dn-counter bg-success">2</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" onclick="openCart()">
-										<i class="lni lni-shopping-basket"></i><span class="dn-counter theme-bg">3</span>
+									<a href="javascript:void(0)" onclick="openCart()">
+										<i class="lni lni-shopping-basket"></i><span class="dn-counter bg-warning">3</span>
 									</a>
 								</li>
 							</ul>
@@ -225,25 +230,29 @@
 			<!-- ============================================================== -->
 			
 			<!-- ============================ Hero Banner  Start================================== -->
-			<div class="home-slider margin-bottom-0">
+			<div class="home-slider hide-navigation margin-bottom-0">
 
 				<!-- Slide -->
-				<div data-background-image="{{asset('frontend/assets/img/p-17.png')}}" class="item">
+				<!-- Slide -->
+				<div data-background-image="{{asset('frontend/assets/img/banner-a.jpg')}}" class="item" data-overlay="3">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="home-slider-container">
 
 									<!-- Slide Title -->
-									{{-- <div class="home-slider-desc">
+									<div class="home-slider-desc text-center">
 										<div class="home-slider-title mb-4">
-											<h5 class="theme-cl fs-sm ft-ragular mb-0">Winter Collection</h5>
-											<h1 class="mb-1 ft-bold lg-heading">New Winter<br>Collections 2021</h1>
-											<span class="trending">There's nothing like trend</span>
+											<h5 class="text-light fs-lg ft-medium mb-0">Winter Arrivals</h5>
+											<h1 class="mb-1 ft-bold lg-heading">Collections 2023</h1>
 										</div>
-
-										<a href="#" class="btn stretched-link borders">Shop Now<i class="lni lni-arrow-right ml-2"></i></a>
-									</div> --}}
+										
+										<p class="mb-0">
+											<a href="javascript:void(0)" class="btn stretched-link light-borders mx-2 my-3 ft-bold">Shop Men</a>
+											<a href="javascript:void(0)" class="btn stretched-link light-borders mx-2 my-3 ft-bold">Shop Women</a>
+										</p>
+										
+									</div>
 									<!-- Slide Title / End -->
 
 								</div>
@@ -253,22 +262,22 @@
 				</div>
 				
 				<!-- Slide -->
-				<div data-background-image="{{asset('frontend/assets/img/p-19.png')}}" class="item">
+				<div data-background-image="{{asset('frontend/assets/img/banner-b.jpg')}}" class="item">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="home-slider-container">
 
 									<!-- Slide Title -->
-									{{-- <div class="home-slider-desc">
+									<div class="home-slider-desc">
 										<div class="home-slider-title mb-4">
-											<h5 class="theme-cl fs-sm ft-ragular mb-0">Winter Collection</h5>
-											<h1 class="mb-1 ft-bold lg-heading">New Winter<br>Collections 2021</h1>
-											<span class="trending">There's nothing like trend</span>
+											<h5 class="text-light fs-md ft-medium mb-0">Summer Collection</h5>
+											<h1 class="mb-1 ft-bold text-light lg-heading">Women's Fashion<br>UpTo 30% Off</h1>
+											<span class="trending text-light">There's nothing like trend</span>
 										</div>
 
-										<a href="#" class="btn stretched-link borders">Shop Now<i class="lni lni-arrow-right ml-2"></i></a>
-									</div> --}}
+										<a href="javascript:void(0)" class="btn btn-white stretched-link">Shop Now<i class="lni lni-arrow-right ml-2"></i></a>
+									</div>
 									<!-- Slide Title / End -->
 
 								</div>
@@ -277,1277 +286,94 @@
 					</div>
 				</div>
 
-				
+				<!-- Slide -->
+				<div data-background-image="{{asset('frontend/assets/img/banner-c.jpg')}}" class="item" data-overlay="3">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="home-slider-container">
+
+									<!-- Slide Title -->
+									<div class="home-slider-desc text-center">
+										<div class="home-slider-title mb-4">
+											<h5 class="text-light fs-lg ft-medium mb-0">Get Summer Styles</h5>
+											<h1 class="mb-1 ft-bold lg-heading">UP TO 40% OFF</h1>
+											<span class="trending text-light">There's nothing like trend</span>
+										</div>
+
+										<a href="javascript:void(0)" class="btn btn-white stretched-link">Shop Now<i class="lni lni-arrow-right ml-2"></i></a>
+									</div>
+									<!-- Slide Title / End -->
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 			</div>
 			<!-- ============================ Hero Banner End ================================== -->
 			
-			<!-- ======================= All Category ======================== -->
-			<section class="middle">
+			<!-- ======================= Category Style ======================== -->
+			<section class="p-0">
 				<div class="container">
-				
-					<div class="row justify-content-center">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-							<div class="sec_title position-relative text-center">
-								<h2 class="off_title">Popular Categories</h2>
-								<h3 class="ft-bold pt-3">Trending Categories</h3>
-							</div>
-						</div>
-					</div>
+					<div class="row overlio">
 					
-					<div class="row align-items-center justify-content-center">
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/fashion.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Men's Wear</a></h6></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+							<div class="cats_caption_wrap">
+								<div class="cats_caption_thumb mb-2">
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/a-7.png')}}" class="img-fluid rounded" alt="" /></a>
+								</div>
+								<div class="cats_caption text-center">
+									<h4 class="m-0">Women's</h4>
+									<span class="text-muted">5670 Collections</span>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/tshirt.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Kid's Wear</a></h6></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+							<div class="cats_caption_wrap">
+								<div class="cats_caption_thumb mb-2">
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/a-9.png')}}" class="img-fluid rounded" alt="" /></a>
+								</div>
+								<div class="cats_caption text-center">
+									<h4 class="m-0">Men's</h4>
+									<span class="text-muted">3220 Collections</span>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/accessories.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Accessories</a></h6></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+							<div class="cats_caption_wrap">
+								<div class="cats_caption_thumb mb-2">
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/a-8.png')}}" class="img-fluid rounded" alt="" /></a>
+								</div>
+								<div class="cats_caption text-center">
+									<h4 class="m-0">Kids</h4>
+									<span class="text-muted">7412 Collections</span>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/sneakers.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Men's Shoes</a></h6></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+							<div class="cats_caption_wrap">
+								<div class="cats_caption_thumb mb-2">
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/a-10.png')}}" class="img-fluid rounded" alt="" /></a>
+								</div>
+								<div class="cats_caption text-center">
+									<h4 class="m-0">Accessories</h4>
+									<span class="text-muted">6580 Collections</span>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/television.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Television</a></h6></div>
-							</div>
-						</div>
-						
-						<div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-4">
-							<div class="cats_side_wrap text-center mx-auto mb-3">
-								<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-4 circle mb-2 border"><a href="javascript:void(0);" class="d-block"><img src="{{asset('frontend/assets/img/pant.png')}}" class="img-fluid" width="40" alt=""></a></div></div>
-								<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Men's Pants</a></h6></div>
-							</div>
-						</div>
 					</div>
-					
 				</div>
 			</section>
-			<!-- ======================= All Category ======================== -->
-			
-			<!-- ======================= Products Lists ======================== -->
-			<section class="space min pt-0">
-				<div class="container">
-					
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-							
-							<ul class="nav nav-tabs b-0 d-flex align-items-center justify-content-center simple_tab_links mb-4" id="myTab" role="tablist">
-								<li class="nav-item" role="presentation">
-									<a class="nav-link" id="all-tab" href="#all" data-toggle="tab" role="tab" aria-controls="all" aria-selected="true">All</a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a class="nav-link active" href="#mens" id="mens-tab" data-toggle="tab" role="tab" aria-controls="mens" aria-selected="false">Men's</a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a class="nav-link" href="#women" id="women-tab" data-toggle="tab" role="tab" aria-controls="women" aria-selected="false">Women</a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a class="nav-link" href="#kids" id="kids-tab" data-toggle="tab" role="tab" aria-controls="kids" aria-selected="false">Kids</a>
-								</li>
-							</ul>
-							
-							<div class="tab-content" id="myTabContent">
-								
-								<!-- All Content -->
-								<div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
-									<div class="tab_product">
-										<div class="row rows-products">
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/15.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(5 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Striped Shirt Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-40%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/16.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Boys Solid Sweatshirt</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/17.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<span class="small">(32 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Floral Print Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-55%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/18.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Solid A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$50 - $149</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-30%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/19.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Printed Straight Kurta</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$199</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/20.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(42 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Printed A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$110 - $600</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/21.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Fit and Flare Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $110</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-60%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/22.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(15 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Self Design Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$119</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								
-								<div class="tab-pane fade show active" id="mens" role="tabpanel" aria-labelledby="mens-tab">
-									<div class="tab_product">
-										<div class="row rows-products">
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/15.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(5 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Striped Shirt Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-40%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/16.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Boys Solid Sweatshirt</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/17.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<span class="small">(32 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Floral Print Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-55%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/18.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Solid A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$50 - $149</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-30%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/19.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Printed Straight Kurta</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$199</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/20.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(42 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Printed A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$110 - $600</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/21.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Fit and Flare Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $110</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-60%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/22.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(15 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Self Design Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$119</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								
-								<!-- Women Content -->
-								<div class="tab-pane fade" id="women" role="tabpanel" aria-labelledby="women-tab">
-									<div class="tab_product">
-										<div class="row rows-products">
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/15.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(5 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Striped Shirt Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-40%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/16.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Boys Solid Sweatshirt</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/17.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<span class="small">(32 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Floral Print Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-55%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/18.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Solid A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$50 - $149</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-30%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/19.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Printed Straight Kurta</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$199</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/20.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(42 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Printed A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$110 - $600</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/21.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Fit and Flare Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $110</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-60%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/22.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(15 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Self Design Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$119</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								
-								<div class="tab-pane fade" id="kids" role="tabpanel" aria-labelledby="kids-tab">
-									<div class="tab_product">
-										<div class="row rows-products">
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/15.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(5 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Striped Shirt Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-40%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/16.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Boys Solid Sweatshirt</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/17.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<span class="small">(32 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Floral Print Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-55%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/18.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Solid A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$50 - $149</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-30%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/19.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Printed Straight Kurta</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$199</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/20.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(42 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Women Printed A-Line Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$110 - $600</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/21.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(0 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Fit and Flare Dress</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $110</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<!-- Single -->
-											<div class="col-xl-3 col-lg-4 col-md-6 col-6">
-												<div class="product_grid card b-0">
-													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
-													<div class="badge bg-danger text-white position-absolute ft-regular ab-right text-upper">-60%</div>
-													<div class="card-body p-0">
-														<div class="shop_thumb position-relative">
-															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/22.png')}}" alt="..."></a>
-															<div class="product-left-hover-overlay">
-																<ul class="left-over-buttons">
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center"><i class="fas fa-expand-arrows-alt position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-wishlist"><i class="far fa-heart position-absolute"></i></a></li>
-																	<li><a href="javascript:void(0);" class="d-inline-flex circle align-items-center justify-content-center snackbar-addcart"><i class="fas fa-shopping-basket position-absolute"></i></a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="card-footer b-0 p-0 pt-2 bg-white d-flex align-items-start justify-content-between">
-														<div class="text-left">
-															<div class="text-left">
-																<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star filled"></i>
-																	<i class="fas fa-star"></i>
-																	<span class="small">(15 Reviews)</span>
-																</div>
-																<h5 class="fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Girls Self Design Jumpsuit</a></h5>
-																<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$119</span></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</section>
-			<!-- ======================= Products List ======================== -->
+			<!-- ======================= Category Style 1 ======================== -->
 			
 			<!-- ======================= Product List ======================== -->
-			<section class="middle gray">
+			<section class="middle">
 				<div class="container">
 				
 					<div class="row justify-content-center">
@@ -1566,41 +392,21 @@
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
 								<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/1.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/1.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color1" id="white" checked="">
-												<label class="form-option-label small rounded-circle" for="white"><span class="form-option-color rounded-circle blc1"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color1" id="blue">
-												<label class="form-option-label small rounded-circle" for="blue"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color1" id="yellow">
-												<label class="form-option-label small rounded-circle" for="yellow"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color1" id="pink">
-												<label class="form-option-label small rounded-circle" for="pink"><span class="form-option-color rounded-circle blc4"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Running Set</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Half Running Set</a></h5>
+											<div class="elis_rty"><span class="ft-bold fs-md text-dark">₹119.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1610,41 +416,21 @@
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
 								<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/2.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/2.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color2" id="white2">
-												<label class="form-option-label small rounded-circle" for="white2"><span class="form-option-color rounded-circle blc5"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color2" id="blue2">
-												<label class="form-option-label small rounded-circle" for="blue2"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color2" id="yellow2">
-												<label class="form-option-label small rounded-circle" for="yellow2"><span class="form-option-color rounded-circle blc6"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color2" id="pink2">
-												<label class="form-option-label small rounded-circle" for="pink2"><span class="form-option-color rounded-circle blc4"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Formal Men Lowers</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Formal Men Lowers</a></h5>
+											<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">₹129.00</span><span class="ft-bold theme-cl fs-md">₹79.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1653,41 +439,21 @@
 						<!-- Single -->
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/3.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/3.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color3" id="white3" checked="">
-												<label class="form-option-label small rounded-circle" for="white3"><span class="form-option-color rounded-circle blc7"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color3" id="blue3">
-												<label class="form-option-label small rounded-circle" for="blue3"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color3" id="yellow3">
-												<label class="form-option-label small rounded-circle" for="yellow3"><span class="form-option-color rounded-circle blc5"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color3" id="pink3">
-												<label class="form-option-label small rounded-circle" for="pink3"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Running Suit</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Half Running Suit</a></h5>
+											<div class="elis_rty"><span class="ft-bold fs-md text-dark">₹80.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1697,41 +463,21 @@
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
 								<div class="badge bg-warning text-white position-absolute ft-regular ab-left text-upper">Hot</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/4.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/4.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color4" id="white4">
-												<label class="form-option-label small rounded-circle" for="white4"><span class="form-option-color rounded-circle blc8"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color4" id="blue4">
-												<label class="form-option-label small rounded-circle" for="blue4"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color4" id="yellow4">
-												<label class="form-option-label small rounded-circle" for="yellow4"><span class="form-option-color rounded-circle blc6"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color4" id="pink4">
-												<label class="form-option-label small rounded-circle" for="pink4"><span class="form-option-color rounded-circle blc5"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Fancy Lady Dress</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Half Fancy Lady Dress</a></h5>
+											<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">₹149.00</span><span class="ft-bold theme-cl fs-md">₹110.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1740,41 +486,21 @@
 						<!-- Single -->
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/5.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/5.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color5" id="white5">
-												<label class="form-option-label small rounded-circle" for="white5"><span class="form-option-color rounded-circle blc8"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color5" id="blue5">
-												<label class="form-option-label small rounded-circle" for="blue5"><span class="form-option-color rounded-circle blc5"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color5" id="yellow5">
-												<label class="form-option-label small rounded-circle" for="yellow5"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color5" id="pink5">
-												<label class="form-option-label small rounded-circle" for="pink5"><span class="form-option-color rounded-circle blc6"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Flix Flox Jeans</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Flix Flox Jeans</a></h5>
+											<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">₹90.00</span><span class="ft-bold theme-cl fs-md">₹49.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1784,41 +510,21 @@
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
 								<div class="badge bg-danger text-white position-absolute ft-regular ab-left text-upper">Hot</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/6.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/6.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color6" id="white6">
-												<label class="form-option-label small rounded-circle" for="white"><span class="form-option-color rounded-circle blc1"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color6" id="blue6">
-												<label class="form-option-label small rounded-circle" for="blue6"><span class="form-option-color rounded-circle blc7"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color6" id="yellow6">
-												<label class="form-option-label small rounded-circle" for="yellow6"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color6" id="pink6">
-												<label class="form-option-label small rounded-circle" for="pink6"><span class="form-option-color rounded-circle blc6"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Fancy Salwar Suits</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Fancy Salwar Suits</a></h5>
+											<div class="elis_rty"><span class="ft-bold fs-md text-dark">₹114.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1828,41 +534,21 @@
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
 								<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/7.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/7.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color7" id="white7">
-												<label class="form-option-label small rounded-circle" for="white7"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color7" id="blue7">
-												<label class="form-option-label small rounded-circle" for="blue7"><span class="form-option-color rounded-circle blc8"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color7" id="yellow7">
-												<label class="form-option-label small rounded-circle" for="yellow7"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color7" id="pink7">
-												<label class="form-option-label small rounded-circle" for="pink7"><span class="form-option-color rounded-circle blc6"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Printed Straight Kurta</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Collot Full Dress</a></h5>
+											<div class="elis_rty"><span class="ft-bold theme-cl fs-md text-dark">₹120.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1871,42 +557,21 @@
 						<!-- Single -->
 						<div class="col-xl-3 col-lg-4 col-md-6 col-6">
 							<div class="product_grid card b-0">
-								<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
+								<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
 								<div class="card-body p-0">
 									<div class="shop_thumb position-relative">
-										<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/1.jpg')}}" alt="..."></a>
+										<a class="card-img-top d-block overflow-hidden" href="javascript:void(0)"><img class="card-img-top" src="{{asset('frontend/assets/img/product/8.jpg')}}" alt="..."></a>
 										<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
-											<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+											<div class="edlio"><a href="javascript:void(0)" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
 										</div>
 									</div>
 								</div>
-								<div class="card-footer b-0 p-0 pt-2">
-									<div class="d-flex align-items-start justify-content-between">
-										<div class="text-left">
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color88" id="white88">
-												<label class="form-option-label small rounded-circle" for="white88"><span class="form-option-color rounded-circle blc7"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color88" id="blue88">
-												<label class="form-option-label small rounded-circle" for="blue88"><span class="form-option-color rounded-circle blc2"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color88" id="yellow88">
-												<label class="form-option-label small rounded-circle" for="yellow88"><span class="form-option-color rounded-circle blc5"></span></label>
-											</div>
-											<div class="form-check form-option form-check-inline mb-1">
-												<input class="form-check-input" type="radio" name="color88" id="pink88">
-												<label class="form-option-label small rounded-circle" for="pink88"><span class="form-option-color rounded-circle blc3"></span></label>
-											</div>
-										</div>
-										<div class="text-right">
-											<button class="btn auto btn_love snackbar-wishlist"><i class="far fa-heart"></i></button> 
-										</div>
-									</div>
+								<div class="card-footer b-0 p-3 pb-0 bg-white d-flex align-items-start justify-content-center">
 									<div class="text-left">
-										<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Collot Full Dress</a></h5>
-										<div class="elis_rty"><span class="ft-bold text-dark fs-sm">$99 - $129</span></div>
+										<div class="text-center">
+											<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="javascript:void(0)">Formal Fluex Kurti</a></h5>
+											<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">₹149.00</span><span class="ft-bold theme-cl fs-md">₹129.00</span></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1918,7 +583,7 @@
 					<div class="row justify-content-center">
 						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 							<div class="position-relative text-center">
-								<a href="shop-style-1.html" class="btn stretched-link borders">Explore More<i class="lni lni-arrow-right ml-2"></i></a>
+								<a href="javascript:void(0)" class="btn stretched-link borders">Explore More<i class="lni lni-arrow-right ml-2"></i></a>
 							</div>
 						</div>
 					</div>
@@ -1926,6 +591,219 @@
 				</div>
 			</section>
 			<!-- ======================= Product List ======================== -->
+			
+			<!-- ======================= Deals of The Day ====================== -->
+			<section class="bg-cover" style="background:url({{asset('frontend/assets/img/banner-c.jpg')}}) no-repeat;" data-overlay="5">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-8 col-lg-9 col-md-12 col-sm-12">
+							
+							<div class="deals_wrap text-center">
+								<h4 class="ft-medium text-light">Get up to -40% Off</h4>
+								<h2 class="ft-bold text-light">Only Summer Collections</h2>
+								<p class="text-light">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+								<div class="mt-5">
+									<a href="javascript:void(0)" class="btn btn-white stretched-link">Start Shopping <i class="lni lni-arrow-right"></i></a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ======================= Deals of The Day ====================== -->
+
+
+						<!-- ======================= Good Deals Start ============================ -->
+						<section class="space">
+							<div class="container">
+								
+								<div class="row justify-content-center">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+										<div class="sec_title position-relative text-center">
+											<h2 class="off_title">Good Deals</h2>
+											<h3 class="ft-bold pt-3">Deals of The Day</h3>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+										<div class="slide_items">
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/8.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Running Set</a></h5>
+																<div class="elis_rty"><span class="ft-bold fs-md text-dark">$119.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<div class="badge bg-info text-white position-absolute ft-regular ab-left text-upper">New</div>
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/9.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Formal Men Lowers</a></h5>
+																<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">$129.00</span><span class="ft-bold theme-cl fs-md">$79.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/10.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Running Suit</a></h5>
+																<div class="elis_rty"><span class="ft-bold fs-md text-dark">$80.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<div class="badge bg-warning text-white position-absolute ft-regular ab-left text-upper">Hot</div>
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/11.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Half Fancy Lady Dress</a></h5>
+																<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">$149.00</span><span class="ft-bold theme-cl fs-md">$110.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/12.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Flix Flox Jeans</a></h5>
+																<div class="elis_rty"><span class="text-muted ft-medium line-through mr-2">$90.00</span><span class="ft-bold theme-cl fs-md">$49.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<div class="badge bg-danger text-white position-absolute ft-regular ab-left text-upper">Hot</div>
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/13.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Fancy Salwar Suits</a></h5>
+																<div class="elis_rty"><span class="ft-bold fs-md text-dark">$114.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- single Item -->
+											<div class="single_itesm">
+												<div class="product_grid card b-0 mb-0">
+													<div class="badge bg-success text-white position-absolute ft-regular ab-left text-upper">Sale</div>
+													<button class="snackbar-wishlist btn btn_love position-absolute ab-right"><i class="far fa-heart"></i></button> 
+													<div class="card-body p-0">
+														<div class="shop_thumb position-relative">
+															<a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img class="card-img-top" src="{{asset('frontend/assets/img/product/14.jpg')}}" alt="..."></a>
+															<div class="product-hover-overlay bg-dark d-flex align-items-center justify-content-center">
+																<div class="edlio"><a href="#" data-toggle="modal" data-target="#quickview" class="text-white fs-sm ft-medium"><i class="fas fa-eye mr-1"></i>Quick View</a></div>
+															</div>
+														</div>
+													</div>
+													<div class="card-footer b-0 p-3 pb-0 d-flex align-items-start justify-content-center">
+														<div class="text-left">
+															<div class="text-center">
+																<h5 class="fw-bolder fs-md mb-0 lh-1 mb-1"><a href="shop-single-v1.html">Collot Full Dress</a></h5>
+																<div class="elis_rty"><span class="ft-bold theme-cl fs-md text-dark">$120.00</span></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</section>
+						<!-- ======================= Good Deals Start ============================ -->
 			
 			<!-- ======================= Blog Start ============================ -->
 			<section class="space min">
@@ -1945,13 +823,13 @@
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
 							<div class="_blog_wrap">
 								<div class="_blog_thumb mb-2">
-									<a href="blog-detail.html" class="d-block"><img src="{{asset('frontend/assets/img/bl-1.png')}}" class="img-fluid rounded" alt="" /></a>
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/bl-1.png')}}" class="img-fluid rounded" alt="" /></a>
 								</div>
 								<div class="_blog_caption">
 									<span class="text-muted">26 Jan 2021</span>
-									<h5 class="bl_title lh-1"><a href="blog-detail.html">Let's start bring sale on this saummer vacation.</a></h5>
+									<h5 class="bl_title lh-1"><a href="javascript:void(0)">Let's start bring sale on this saummer vacation.</a></h5>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-									<a href="blog-detail.html" class="text-dark fs-sm">Continue Reading..</a>
+									<a href="javascript:void(0)" class="text-dark fs-sm">Continue Reading..</a>
 								</div>
 							</div>
 						</div>
@@ -1959,13 +837,13 @@
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
 							<div class="_blog_wrap">
 								<div class="_blog_thumb mb-2">
-									<a href="blog-detail.html" class="d-block"><img src="{{asset('frontend/assets/img/bl-2.png')}}" class="img-fluid rounded" alt="" /></a>
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/bl-2.png')}}" class="img-fluid rounded" alt="" /></a>
 								</div>
 								<div class="_blog_caption">
 									<span class="text-muted">17 July 2021</span>
-									<h5 class="bl_title lh-1"><a href="blog-detail.html">Let's start bring sale on this saummer vacation.</a></h5>
+									<h5 class="bl_title lh-1"><a href="javascript:void(0)">Let's start bring sale on this saummer vacation.</a></h5>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-									<a href="blog-detail.html" class="text-dark fs-sm">Continue Reading..</a>
+									<a href="javascript:void(0)" class="text-dark fs-sm">Continue Reading..</a>
 								</div>
 							</div>
 						</div>
@@ -1973,13 +851,13 @@
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
 							<div class="_blog_wrap">
 								<div class="_blog_thumb mb-2">
-									<a href="blog-detail.html" class="d-block"><img src="{{asset('frontend/assets/img/bl-3.png')}}" class="img-fluid rounded" alt="" /></a>
+									<a href="javascript:void(0)" class="d-block"><img src="{{asset('frontend/assets/img/bl-3.png')}}" class="img-fluid rounded" alt="" /></a>
 								</div>
 								<div class="_blog_caption">
 									<span class="text-muted">10 Aug 2021</span>
-									<h5 class="bl_title lh-1"><a href="blog-detail.html">Let's start bring sale on this saummer vacation.</a></h5>
+									<h5 class="bl_title lh-1"><a href="javascript:void(0)">Let's start bring sale on this saummer vacation.</a></h5>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-									<a href="blog-detail.html" class="text-dark fs-sm">Continue Reading..</a>
+									<a href="javascript:void(0)" class="text-dark fs-sm">Continue Reading..</a>
 								</div>
 							</div>
 						</div>
@@ -2069,64 +947,6 @@
 			</section>
 			<!-- ======================= Instagram Start ============================ -->
 			
-			<!-- ============================= Customer Features =============================== -->
-			<section class="px-0 py-3 br-top">
-				<div class="container">
-					<div class="row">
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-shopping-basket"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">Free Shipping</h5>
-									<span class="text-muted">Capped at $10 per order</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="far fa-credit-card"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">Secure Payments</h5>
-									<span class="text-muted">Up to 6 months installments</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-shield-alt"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">15-Days Returns</h5>
-									<span class="text-muted">Shop with fully confidence</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-headphones-alt"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">24x7 Fully Support</h5>
-									<span class="text-muted">Get friendly support</span>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			<!-- ======================= Customer Features ======================== -->
-			
 			<!-- ============================ Footer Start ================================== -->
 			<footer class="dark-footer skin-dark-footer">
 				<div class="footer-middle">
@@ -2135,7 +955,8 @@
 							
 							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
 								<div class="footer_widget">
-									<img src="{{asset('frontend/assets/img/logo-light.png')}}" class="img-footer small mb-2" alt="" />
+									<!-- <img src="{{asset('frontend/assets/img/logo-light.png')}}" class="img-footer small mb-2" alt="" /> -->
+									<h4>	PakhiinfoTech</h4>
 									
 									<div class="address mt-3">
 										3298 Grant Street Longview, TX<br>United Kingdom 75601	
@@ -2145,11 +966,11 @@
 									</div>
 									<div class="address mt-3">
 										<ul class="list-inline">
-											<li class="list-inline-item"><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-youtube"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-instagram-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+											<li class="list-inline-item"><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+											<li class="list-inline-item"><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
+											<li class="list-inline-item"><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+											<li class="list-inline-item"><a href="javascript:void(0)"><i class="lni lni-instagram-filled"></i></a></li>
+											<li class="list-inline-item"><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -2159,12 +980,12 @@
 								<div class="footer_widget">
 									<h4 class="widget_title">Supports</h4>
 									<ul class="footer-menu">
-										<li><a href="#">Contact Us</a></li>
-										<li><a href="#">About Page</a></li>
-										<li><a href="#">Size Guide</a></li>
-										<li><a href="#">Shipping & Returns</a></li>
-										<li><a href="#">FAQ's Page</a></li>
-										<li><a href="#">Privacy</a></li>
+										<li><a href="javascript:void(0)">Contact Us</a></li>
+										<li><a href="javascript:void(0)">About Page</a></li>
+										<li><a href="javascript:void(0)">Size Guide</a></li>
+										<li><a href="javascript:void(0)">Shipping & Returns</a></li>
+										<li><a href="javascript:void(0)">FAQ's Page</a></li>
+										<li><a href="javascript:void(0)">Privacy</a></li>
 									</ul>
 								</div>
 							</div>
@@ -2173,11 +994,11 @@
 								<div class="footer_widget">
 									<h4 class="widget_title">Shop</h4>
 									<ul class="footer-menu">
-										<li><a href="#">Men's Shopping</a></li>
-										<li><a href="#">Women's Shopping</a></li>
-										<li><a href="#">Kids's Shopping</a></li>
-										<li><a href="#">Furniture</a></li>
-										<li><a href="#">Discounts</a></li>
+										<li><a href="javascript:void(0)">Men's Shopping</a></li>
+										<li><a href="javascript:void(0)">Women's Shopping</a></li>
+										<li><a href="javascript:void(0)">Kids's Shopping</a></li>
+										<li><a href="javascript:void(0)">Furniture</a></li>
+										<li><a href="javascript:void(0)">Discounts</a></li>
 									</ul>
 								</div>
 							</div>
@@ -2186,10 +1007,10 @@
 								<div class="footer_widget">
 									<h4 class="widget_title">Company</h4>
 									<ul class="footer-menu">
-										<li><a href="#">About</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Affiliate</a></li>
-										<li><a href="#">Login</a></li>
+										<li><a href="javascript:void(0)">About</a></li>
+										<li><a href="javascript:void(0)">Blog</a></li>
+										<li><a href="javascript:void(0)">Affiliate</a></li>
+										<li><a href="javascript:void(0)">Login</a></li>
 									</ul>
 								</div>
 							</div>
@@ -2221,7 +1042,7 @@
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-12 col-md-12 text-center">
-								<p class="mb-0">© 2021 Kumo. Designd By <a href="https://themezhub.com/">ThemezHub</a>.</p>
+								<p class="mb-0">© 2023 Kumo. Designd By <a href="https://pakhiinfotech.in/">Nayanjyoti</a>.</p>
 							</div>
 						</div>
 					</div>
@@ -2266,7 +1087,7 @@
 													<i class="fas fa-star"></i>
 													<span class="small">(412 Reviews)</span>
 												</div>
-												<div class="elis_rty"><span class="ft-medium text-muted line-through fs-md mr-2">$199</span><span class="ft-bold theme-cl fs-lg mr-2">$110</span><span class="ft-regular text-danger bg-light-danger py-1 px-2 fs-sm">Out of Stock</span></div>
+												<div class="elis_rty"><span class="ft-medium text-muted line-through fs-md mr-2">₹199</span><span class="ft-bold theme-cl fs-lg mr-2">₹110</span><span class="ft-regular text-danger bg-light-danger py-1 px-2 fs-sm">Out of Stock</span></div>
 											</div>
 										</div>
 										
@@ -2368,13 +1189,13 @@
 										<div class="prt_06">
 											<p class="mb-0 d-flex align-items-center">
 											  <span class="mr-4">Share:</span>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted mr-2" href="#!">
+											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted mr-2" href="javascript:void(0)!">
 												<i class="fab fa-twitter position-absolute"></i>
 											  </a>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted mr-2" href="#!">
+											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted mr-2" href="javascript:void(0)!">
 												<i class="fab fa-facebook-f position-absolute"></i>
 											  </a>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted" href="#!">
+											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted" href="javascript:void(0)!">
 												<i class="fab fa-pinterest-p position-absolute"></i>
 											  </a>
 											</p>
@@ -2422,7 +1243,7 @@
 											<label for="dd" class="checkbox-custom-label">Remember Me</label>
 										</div>	
 										<div class="eltio_k2">
-											<a href="#">Lost Your Password?</a>
+											<a href="javascript:void(0)">Lost Your Password?</a>
 										</div>	
 									</div>
 								</div>
@@ -2432,7 +1253,7 @@
 								</div>
 								
 								<div class="form-group text-center mb-0">
-									<p class="extra">Not a member?<a href="#et-register-wrap" class="text-dark"> Register</a></p>
+									<p class="extra">Not a member?<a href="javascript:void(0)et-register-wrap" class="text-dark"> Register</a></p>
 								</div>
 							</form>
 						</div>
@@ -2533,12 +1354,12 @@
 							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/4.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/4.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Women Striped Shirt Dress</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹129</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2548,12 +1369,12 @@
 							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/7.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/7.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Floral Print Jumpsuit</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹129</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2563,12 +1384,12 @@
 							<div class="d-flex align-items-center justify-content-between px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/8.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/8.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Solid A-Line Dress</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">30</span>, <span class="text-dark small">Blue</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$100</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹100</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2578,7 +1399,7 @@
 						
 						<div class="d-flex align-items-center justify-content-between br-top br-bottom px-3 py-3">
 							<h6 class="mb-0">Subtotal</h6>
-							<h3 class="mb-0 ft-medium">$417</h3>
+							<h3 class="mb-0 ft-medium">₹417</h3>
 						</div>
 						
 						<div class="cart_action px-3 py-3">
@@ -2608,12 +1429,12 @@
 							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/4.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/4.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Women Striped Shirt Dress</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹129</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2623,12 +1444,12 @@
 							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/7.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/7.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Floral Print Jumpsuit</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹129</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2638,12 +1459,12 @@
 							<div class="d-flex align-items-center justify-content-between px-3 py-3">
 								<div class="cart_single d-flex align-items-center">
 									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="{{asset('frontend/assets/img/product/8.jpg')}}" width="60" class="img-fluid" alt="" /></a>
+										<a href="javascript:void(0)"><img src="{{asset('frontend/assets/img/product/8.jpg')}}" width="60" class="img-fluid" alt="" /></a>
 									</div>
 									<div class="cart_single_caption pl-2">
 										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Solid A-Line Dress</h4>
 										<p class="mb-2"><span class="text-dark ft-medium small">30</span>, <span class="text-dark small">Blue</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$100</h4>
+										<h4 class="fs-md ft-medium mb-0 lh-1">₹100</h4>
 									</div>
 								</div>
 								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
@@ -2653,7 +1474,7 @@
 						
 						<div class="d-flex align-items-center justify-content-between br-top br-bottom px-3 py-3">
 							<h6 class="mb-0">Subtotal</h6>
-							<h3 class="mb-0 ft-medium">$1023</h3>
+							<h3 class="mb-0 ft-medium">₹1023</h3>
 						</div>
 						
 						<div class="cart_action px-3 py-3">
@@ -2669,7 +1490,7 @@
 				</div>
 			</div>
 			
-			<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+			<a id="back2Top" class="top-scroll" title="Back to top" href="javascript:void(0)"><i class="ti-arrow-up"></i></a>
 			
 
 		</div>
@@ -2724,5 +1545,4 @@
 
 	</body>
 
-<!-- Mirrored from www.themezhub.net/kumo-demo-2/kumo/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Sep 2023 08:35:46 GMT -->
 </html>
