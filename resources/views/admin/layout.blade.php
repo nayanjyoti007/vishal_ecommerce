@@ -96,6 +96,15 @@
                                 </a>
                             </li>
 
+
+                            <li>
+                                <a href="{{route('admin.homeslider.list')}}" class="waves-effect @yield('homeslider_active')">
+                                    <i class="ri-file-list-2-line"></i>
+                                    <span>Home Slider</span>
+                                </a>
+                            </li>
+
+
                             <li>
                                 <a href="{{route('admin.category.list')}}" class="waves-effect @yield('category_active')">
                                     <i class="ri-file-list-2-line"></i>

@@ -40,7 +40,7 @@ class ProductController extends Controller
             'slug' => 'required|unique:products,slug,'.$request->post('id'),
             'category_id' => 'required|numeric|exists:categories,id',
             'brand' => 'required',
-            'image' => 'required|image|mimes:jpg,png,jpeg|max:2048',
+            'image' => 'image|mimes:jpg,png,jpeg|max:2048',
             'short_description' => 'required',
             'long_description' => 'required',
             'keywords' => 'required',
@@ -75,10 +75,10 @@ class ProductController extends Controller
         $product->lead_time = $request->input('lead_time');
         $product->tax = $request->input('tax');
         $product->tax_type = $request->input('tax_type');
-        $product->is_promo = $request->input('is_promo');
-        $product->is_featured = $request->input('is_featured');
-        $product->is_discounted = $request->input('is_discounted');
-        $product->is_tranding = $request->input('is_tranding');
+        // $product->is_promo = $request->input('is_promo');
+        // $product->is_featured = $request->input('is_featured');
+        // $product->is_discounted = $request->input('is_discounted');
+        // $product->is_tranding = $request->input('is_tranding');
         $product->short_description = $request->input('short_description');
         $product->long_description = $request->input('long_description');
         $product->keywords = $request->input('keywords');

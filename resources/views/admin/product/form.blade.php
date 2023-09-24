@@ -185,7 +185,7 @@
                            @enderror
                         </div>
                      </div>
-                     <div class="row">
+                     {{-- <div class="row">
                         <div class="col-md-3 mb-4">
                            <label>Is Promo</label>
                            <select class="form-select" aria-label="Default select example" id="is_promo"
@@ -254,7 +254,7 @@
                            </span>
                            @enderror
                         </div>
-                     </div>
+                     </div> --}}
                      <div>
                         <button class="btn btn-primary btn-sm" type="submit">Submit</button>
                         <a href="{{ route('admin.product.list') }}" class="btn btn-success btn-sm">Back</a>

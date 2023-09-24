@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\Product\ProductAttributeController;
 use App\Http\Controllers\Admin\Product\ProductController;
 use App\Http\Controllers\Admin\Product\ProductImageController;
 use App\Http\Controllers\Admin\Size\SizeController;
+use App\Http\Controllers\Admin\Slider\HomeSliderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -62,6 +63,14 @@ Route::group(['middleware' => 'admin'], function () {
             Route::get('status/{id}', [BrandController::class, 'status'])->name('status');
             Route::get('show_home/{id}', [BrandController::class, 'showHome'])->name('showHome');
             Route::get('delete', [BrandController::class, 'delete'])->name('delete');
+        });
+
+
+        Route::group(['prefix' => 'homeslider', 'as' => 'homeslider.'], function () {
+            Route::get('list', [HomeSliderController::class, 'list'])->name('list');
+            Route::get('form/{id?}', [HomeSliderController::class, 'form'])->name('form');
+            Route::post('submit', [HomeSliderController::class, 'submit'])->name('submit');
+            Route::get('delete', [HomeSliderController::class, 'delete'])->name('delete');
         });
 
 

@@ -3435,15 +3435,18 @@ ul.dahs_navbar li a.active {
 	opacity:1;
 	display:block !important;
 }
-.blc1{
-	background:#eaeaeb;
+
+.red{
+	background:#FF0000;
 }
-.blc2{
-	background:#d1dceb;
+.white{
+	background:#ffffff;
 }
-.blc8{
-	background:#becc36;
+.black{
+	background:#000000;
 }
+
+
 .blc3{
 	background:#f4e6a2;
 }
