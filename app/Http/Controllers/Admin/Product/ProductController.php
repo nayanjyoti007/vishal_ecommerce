@@ -50,12 +50,20 @@ class ProductController extends Controller
             'name' => 'required|string|max:100',
             'slug' => 'required|unique:products,slug,' . $request->post('id'),
             'category_id' => 'required|numeric|exists:categories,id',
-            'brand' => 'required',
-            'image' => 'image|mimes:jpg,png,jpeg|max:2048',
+            'brand' => 'required|numeric',
+            'image' => 'required_without:id|image|mimes:jpg,png,jpeg|max:2048',
             'short_description' => 'required',
             'long_description' => 'required',
             'keywords' => 'required',
-            'have_attribute' => 'required',
+
+            'have_attribute' => 'required|numeric',
+            'sku.*' => 'required_if:have_attribute,=,1',
+            'mrp.*' => 'required_if:have_attribute,=,1|numeric|gte:1',
+            'price.*' => 'required_if:have_attribute,=,1|numeric|gte:1',
+            'size_id.*' => 'required_if:have_attribute,=,1|numeric|gte:1',
+            'color_id.*' => 'required_if:have_attribute,=,1|numeric|gte:1',
+            'qty.*' => 'required_if:have_attribute,=,1',
+            // 'atimage.*' => 'required_if:have_attribute,=,1|image|mimes:jpg,png,jpeg|max:2048',
         ]);
 
         $id = $request->input('id');
@@ -63,10 +71,12 @@ class ProductController extends Controller
         if (!empty($id)) {
             $product = Product::findOrFail($id);
             $this->productSave($product, $request);
-            return back()->with('success', 'Product Updated Successfully');
+            // return back()->with('success', 'Product Updated Successfully');
+            return response()->json(['success' => 200, 'message' => "Product Updated Successfully'"]);
         } else {
             $this->productSave(new Product(), $request);
-            return back()->with('success', 'Product Added Successfully');
+            // return back()->with('success', 'Product Added Successfully');
+            return response()->json(['success' => 200, 'message' => "Product Added Successfully"]);
         }
     }
 
@@ -115,7 +125,7 @@ class ProductController extends Controller
         } else {
             foreach ($request->sku as $key => $value) {
                 $idd = $request->product_attrID[$key];
-
+                // dd($idd);
                 if ($idd != null) {
                     $productAttr = ProductAttribute::where('id', $idd)->first();
                 } else {
