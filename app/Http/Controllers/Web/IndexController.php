@@ -24,7 +24,7 @@ class IndexController extends Controller
                     ->leftJoin('sizes', 'sizes.id', '=', 'product_attributes.size_id')
                     ->leftJoin('colors', 'colors.id', '=', 'product_attributes.color_id')
                     ->where('product_attributes.status', 1)->where('product_attributes.product_id', $list1->id)
-                    ->select(DB::raw('MIN(product_attributes.mrp) AS minPrice, MAX(product_attributes.mrp) AS maxPrice'))
+                    ->select(DB::raw('MIN(product_attributes.price) AS minPrice, MAX(product_attributes.price) AS maxPrice'))
                     ->get();
             }
         }
@@ -42,6 +42,8 @@ class IndexController extends Controller
         //     }
         // }
 
+
+
         return view('web.index', compact('sliders', 'category'));
     }
 
@@ -55,9 +57,10 @@ class IndexController extends Controller
             ->leftJoin('sizes', 'sizes.id', '=', 'product_attributes.size_id')
             ->leftJoin('colors', 'colors.id', '=', 'product_attributes.color_id')
             ->where('product_attributes.status', 1)->where('product_attributes.product_id', $result['product']->id)
+            ->select('product_attributes.id', 'product_attributes.mrp', 'product_attributes.price', 'product_attributes.qty', 'product_attributes.size_id', 'product_attributes.color_id', 'product_attributes.attr_image','colors.color','sizes.size')
             ->get();
 
-
+// dd($result);
             $result['product_images'] = DB::table('product_images')
             ->where('product_images.status', 1)->where('product_images.product_id', $result['product']->id)
             ->get();
@@ -67,7 +70,7 @@ class IndexController extends Controller
             ->leftJoin('sizes', 'sizes.id', '=', 'product_attributes.size_id')
             ->leftJoin('colors', 'colors.id', '=', 'product_attributes.color_id')
             ->where('product_attributes.status', 1)->where('product_attributes.product_id', $result['product']->id)
-            ->select(DB::raw('MIN(product_attributes.mrp) AS minPrice, MAX(product_attributes.mrp) AS maxPrice'))
+            ->select(DB::raw('MIN(product_attributes.price) AS minPrice, MAX(product_attributes.price) AS maxPrice'))
             ->get();
 
 
@@ -79,12 +82,12 @@ class IndexController extends Controller
                 ->leftJoin('sizes', 'sizes.id', '=', 'product_attributes.size_id')
                 ->leftJoin('colors', 'colors.id', '=', 'product_attributes.color_id')
                 ->where('product_attributes.status', 1)->where('product_attributes.product_id', $listProduct->id)
-                ->select(DB::raw('MIN(product_attributes.mrp) AS minPrice, MAX(product_attributes.mrp) AS maxPrice'))
+                ->select(DB::raw('MIN(product_attributes.price) AS minPrice, MAX(product_attributes.price) AS maxPrice'))
                 ->get();
         }
 
 
-        // dd($result['product_images']);
+        // dd($result);
 
         return view('web.product', compact('result'));
     }

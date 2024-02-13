@@ -90,6 +90,7 @@ Route::group(['middleware' => 'admin'], function () {
             Route::post('submit', [ProductController::class, 'submit'])->name('submit');
             Route::get('status/{id}', [ProductController::class, 'status'])->name('status');
             Route::get('delete', [ProductController::class, 'delete'])->name('delete');
+            Route::get('attr/delete', [ProductController::class, 'attDelete'])->name('attr-delete');
 
             Route::group(['prefix' => 'attribute', 'as' => 'attribute.'], function () {
                 Route::get('list/{id}', [ProductAttributeController::class, 'list'])->name('list');

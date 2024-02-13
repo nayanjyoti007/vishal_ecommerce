@@ -22,8 +22,8 @@ class ProductAttributeController extends Controller
         $color = Color::latest()->where('status',1)->get();
         $size = Size::latest()->where('status',1)->get();
         $product = Product::where('id', $product_id)->first();
-        
-        
+
+
         if (!empty($id)) {
             $product_attr = ProductAttribute::findOrFail($id);
 
@@ -36,7 +36,7 @@ class ProductAttributeController extends Controller
     public function submit(Request $request)
     {
         // dd($request->all());
-    
+
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:product_attributes,id',
             'product_id' => 'required|numeric|exists:products,id',
@@ -52,12 +52,12 @@ class ProductAttributeController extends Controller
 
         $id = $request->input('id');
 
-        if (ProductAttribute::where('product_id', $request->input('product_id'))
-        ->where('color_id', $request->input('color_id'))
-        ->where('size_id', $request->input('size_id'))
-        ->exists()) {
-        return back()->with('error', 'Product with the same name and size already exists');
-    } 
+    //     if (ProductAttribute::where('product_id', $request->input('product_id'))
+    //     ->where('color_id', $request->input('color_id'))
+    //     ->where('size_id', $request->input('size_id'))
+    //     ->exists()) {
+    //     return back()->with('error', 'Product with the same name and size already exists');
+    // }
 
         if (!empty($id)) {
             $product_attr = ProductAttribute::findOrFail($id);
@@ -76,7 +76,7 @@ class ProductAttributeController extends Controller
             ImageService::delete($product_attr->image);
             $product_attr->attr_image = ImageService::save($request->file('image'));
         }
-        
+
         $product_attr->product_id = $request->input('product_id');
         $product_attr->sku = $request->input('sku');
         $product_attr->mrp = $request->input('mrp');

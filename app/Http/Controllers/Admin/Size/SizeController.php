@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin\Size;
 use App\Http\Controllers\Controller;
 use App\Models\Size;
 use Illuminate\Http\Request;
+use App\Rules\IndianPanCard;
 
 class SizeController extends Controller
 {
@@ -27,9 +28,13 @@ class SizeController extends Controller
     public function submit(Request $request)
     {
         // dd($request->all());
+
+        
         $this->validate($request, [
             'id' => 'nullable|numeric|exists:sizes,id',
             'name' => 'required|unique:sizes,size,'.$request->post('id'),
+
+            // 'name' => ['required', new IndianPanCard],
 
         ]);
         $id = $request->input('id');

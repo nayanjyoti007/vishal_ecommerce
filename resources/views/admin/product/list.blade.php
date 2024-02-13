@@ -66,7 +66,7 @@
                                                     class="btn btn-danger btn-sm">Deactive</a>
                                             @endif
 
-                                            <a href="{{route('admin.product.attribute.list',['id' => $item->id])}}" class="btn btn-success btn-sm">Add Attribute</a>
+                                            {{-- <a href="{{route('admin.product.attribute.list',['id' => $item->id])}}" class="btn btn-success btn-sm">Add Attribute</a> --}}
                                             <a href="{{route('admin.product.images.form',['id' => $item->id])}}" class="btn btn-success btn-sm">Add Images</a>
 
                                             {{-- <a href="javascript:void(0)" class="btn btn-warning btn-sm delete_item"

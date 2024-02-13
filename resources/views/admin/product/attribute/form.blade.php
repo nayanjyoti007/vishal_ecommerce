@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                    
+
 
                     @if(isset($product_attr) && !empty($product_attr))
                     <h4 class="mb-sm-0">Update Product Attribute</h4>
@@ -60,7 +60,7 @@
 
                                     <input type="hidden" name="product_id" value="{{isset($product) ? $product->id : old('product_id')}}">
 
-                                
+
                                     <div class="row">
                                         <div class="col-md-6 mb-4">
                                             <label>Product Name</label>
@@ -73,8 +73,8 @@
                                                 </span>
                                             @enderror
                                     </div>
-    
-    
+
+
                                     <div class="col-md-6 mb-4">
                                         <label>Product SKU</label>
                                         <input class="form-control" type="text" name="sku"
@@ -132,7 +132,7 @@
                                     </span>
                                 @enderror
                         </div>
-    
+
                         <div class="col-md-4 mb-4">
                             <label>Product Color</label>
                             <select class="form-select" aria-label="Default select example" id="color_id"
@@ -177,7 +177,7 @@
                                     </span>
                                 @enderror
                         </div>
-                
+
                         <div class="col-md-6 mb-4">
                             <img src="{{ isset($product_attr) ? asset('backend_images/' . $product_attr->attr_image) : '' }}"
                                 alt="" srcset="" id="showImage" style="width: 15%;">
